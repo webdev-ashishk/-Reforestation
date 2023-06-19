@@ -1,0 +1,23 @@
+.navContainer {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lword {
+  border: 2px solid blue;
+  color: blue;
+  margin: 10px;
+}
+.nav-item {
+  border: 2px solid green;
+  margin-right: 50px;
+}
+.nav-item > ul {
+  display: flex;
+  list-style: none;
+}
+.nav-item > ul > li {
+  margin: 10px;
+  font-size: 1.2rem;
+}
